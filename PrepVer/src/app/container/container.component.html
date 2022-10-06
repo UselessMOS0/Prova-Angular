@@ -1,1 +1,8 @@
-<p>container works!</p>
+<div class="card-deck">
+    <div class="card" style="background-color: crimson;" *ngFor="let m of macchine_cantiere">
+      <div class="card-body">
+        <p class="card-text"><app-macchina [macchina]="m"></app-macchina></p>
+      </div>
+    </div>
+</div>
+        
