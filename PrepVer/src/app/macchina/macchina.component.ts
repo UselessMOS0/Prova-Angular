@@ -7,6 +7,7 @@ import { Component, OnInit ,Input} from '@angular/core';
 })
 export class MacchinaComponent implements OnInit {
   @Input() macchina:string = "";
+  madre_porta = ['viti','bulloni','ferro'] 
   constructor() {
    }
 
